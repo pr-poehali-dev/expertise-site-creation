@@ -85,11 +85,11 @@ const Index = () => {
         </div>
       </nav>
 
-      <section className="pt-32 pb-20 px-4">
+      <section className="pt-24 md:pt-32 pb-12 md:pb-20 px-4">
         <div className="container mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="animate-fade-in">
-              <h1 className="font-heading text-5xl lg:text-6xl font-bold text-secondary mb-6 leading-tight">
+              <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-secondary mb-4 md:mb-6 leading-tight">
                 Независимая экспертная организация
               </h1>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
@@ -106,28 +106,28 @@ const Index = () => {
                   Наши документы
                 </Button>
               </div>
-              <div className="grid grid-cols-3 gap-6 mt-12">
+              <div className="grid grid-cols-3 gap-4 md:gap-6 mt-8 md:mt-12">
                 <div className="text-center">
-                  <div className="text-3xl font-heading font-bold text-primary mb-1">15+</div>
-                  <div className="text-sm text-muted-foreground">лет опыта</div>
+                  <div className="text-2xl md:text-3xl font-heading font-bold text-primary mb-1">15+</div>
+                  <div className="text-xs md:text-sm text-muted-foreground">лет опыта</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-heading font-bold text-primary mb-1">2000+</div>
-                  <div className="text-sm text-muted-foreground">экспертиз</div>
+                  <div className="text-2xl md:text-3xl font-heading font-bold text-primary mb-1">2000+</div>
+                  <div className="text-xs md:text-sm text-muted-foreground">экспертиз</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-heading font-bold text-primary mb-1">100%</div>
-                  <div className="text-sm text-muted-foreground">надёжность</div>
+                  <div className="text-2xl md:text-3xl font-heading font-bold text-primary mb-1">100%</div>
+                  <div className="text-xs md:text-sm text-muted-foreground">надёжность</div>
                 </div>
               </div>
             </div>
-            <div className="relative animate-scale-in">
+            <div className="relative animate-scale-in mt-8 lg:mt-0">
               <img 
                 src="https://cdn.poehali.dev/projects/b66ca075-88f9-4417-99df-e0e37d0db499/files/23aeb73e-c77d-4f54-b6f1-43c14622aaf7.jpg"
                 alt="Экспертное здание"
                 className="rounded-lg shadow-2xl w-full"
               />
-              <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-xl">
+              <div className="hidden sm:block absolute -bottom-4 sm:-bottom-6 -left-4 sm:-left-6 bg-white p-4 sm:p-6 rounded-lg shadow-xl">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Icon name="Award" className="text-primary" size={24} />
@@ -143,10 +143,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="py-20 px-4 bg-muted/30">
+      <section id="services" className="py-12 md:py-20 px-4 bg-muted/30">
         <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="font-heading text-4xl font-bold text-secondary mb-4">Наши услуги</h2>
+          <div className="text-center mb-8 md:mb-16">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary mb-4">Наши услуги</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Полный спектр экспертных услуг в области строительства и землеустройства
             </p>
@@ -171,10 +171,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="expertise" className="py-20 px-4">
+      <section id="expertise" className="py-12 md:py-20 px-4">
         <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="font-heading text-4xl font-bold text-secondary mb-4">Виды экспертиз</h2>
+          <div className="text-center mb-8 md:mb-16">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary mb-4">Виды экспертиз</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Специализированные экспертизы для решения различных задач
             </p>
@@ -208,10 +208,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-20 px-4 bg-muted/30">
+      <section className="py-12 md:py-20 px-4 bg-muted/30">
         <div className="container mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="grid grid-cols-2 gap-4">
+          <div className="grid lg:grid-cols-2 gap-8 md:gap-12 items-center">
+            <div className="hidden sm:grid grid-cols-2 gap-4">
               <img 
                 src="https://cdn.poehali.dev/projects/b66ca075-88f9-4417-99df-e0e37d0db499/files/eec7b2c2-d795-4954-ab22-0d81e59c0f30.jpg"
                 alt="Строительная экспертиза"
@@ -224,7 +224,7 @@ const Index = () => {
               />
             </div>
             <div>
-              <h2 className="font-heading text-4xl font-bold text-secondary mb-6">
+              <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary mb-6">
                 Почему выбирают нас
               </h2>
               <div className="space-y-6">
@@ -250,16 +250,16 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="py-20 px-4">
+      <section id="contact" className="py-12 md:py-20 px-4">
         <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="font-heading text-4xl font-bold text-secondary mb-4">Свяжитесь с нами</h2>
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="font-heading text-3xl md:text-4xl font-bold text-secondary mb-4">Свяжитесь с нами</h2>
             <p className="text-lg text-muted-foreground">
               Оставьте заявку и получите бесплатную консультацию эксперта
             </p>
           </div>
           <Card className="border-border">
-            <CardContent className="p-8">
+            <CardContent className="p-4 md:p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
@@ -324,9 +324,9 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-secondary text-white py-12 px-4">
+      <footer className="bg-secondary text-white py-8 md:py-12 px-4">
         <div className="container mx-auto">
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Building" size={28} />
